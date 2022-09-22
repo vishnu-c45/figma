@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: 0;
+    background-color: rgb(25, 55, 81);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ed-container{
+    background-color: rgb(220, 219, 217);
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+   
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+   
+
+}
+ul{
+    list-style: none;
+    padding: 50px;
+    position: relative;
+}
+.navmenu{
+    padding-left: 50px;
+    position: relative;
+}
+
+
+
+.navmenu ul::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    
+    left: 40px;
+    top: 0;
+    background-color: rgb(13, 146, 228);
+    z-index: -1;
+}
+.navmenu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navmenu ul li {
+    padding: 30px 0;
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+    
+}
+
+.navmenu ul li .edu::before{
+    content: '1';
+    padding: 5px;
+    color: aliceblue;
+    
+    position: absolute;
+    background-color: rgb(255,5,72);
+    width: 50px;
+    height: 40px;
+    left: 30px;
+    transform: translate(-50%);
+    border-radius: 5px;
+    text-align: center;
+
+}
+.navmenu ul li .skill {
+    color: rgb(172, 173, 174);
+
+}
+.navmenu ul li .expm {
+    color: rgb(172, 173, 174);
+
+}
+.navmenu ul li .prtio {
+    color: rgb(172, 173, 174);
+
+}
+.navmenu ul li .profile {
+    color: rgb(172, 173, 174);
+
+}
+
+
+
+.navmenu ul li .skill::before{
+    content: '2';
+    padding:5px;
+    color: aliceblue;
+    
+    position: absolute;
+    background-color: rgb(92, 87, 89);
+    width: 50px;
+    height: 40px;
+    left: 30px;
+    transform: translate(-50%);
+    border-radius: 5px;
+    text-align: center;
+
+}
+.navmenu ul li .expm::before{
+    content: '3';
+    padding:5px;
+    color: aliceblue;
+    
+    position: absolute;
+    background-color: rgb(92, 87, 89);
+    width: 50px;
+    height: 40px;
+    left: 30px;
+    transform: translate(-50%);
+    border-radius: 5px;
+    text-align: center;
+
+}
+.navmenu ul li .prtio::before{
+    content: '4';
+    padding:5px;
+    color: aliceblue;
+    
+    position: absolute;
+    background-color: rgb(92, 87, 89);
+    width: 50px;
+    height: 40px;
+    left: 30px;
+    transform: translate(-50%);
+    border-radius: 5px;
+    text-align: center;
+
+}
+.navmenu ul li .profile::before{
+    content: '2';
+    padding:5px;
+    color: aliceblue;
+    
+    position: absolute;
+    background-color: rgb(92, 87, 89);
+    width: 50px;
+    height: 40px;
+    left: 30px;
+    transform: translate(-50%);
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+/* form method */
+
+.edcontainer{
+
+    border: 1px solid rgb(120, 119, 118) ;
+    max-width: 100%;
+
+}
+label{
+    color: rgb(178, 178, 178);
+}
+input{
+    max-width: 100%;
+
+    border: none;
+    background-color: rgb(220, 219, 217);
+    outline: none;
+   
+}
+
+input :focus{
+    border: none;
+}
+
+.sp{
+    border: 1px solid rgb(120, 119, 118) ;
+    max-width: 50%;
+    margin: 10px;    
+}
+.sp2{
+
+    border: 1px solid rgb(120, 119, 118) ;
+    margin-left: 20px;
+    max-width: 46%;
+
+}
+.st{
+    border: 1px solid rgb(120, 119, 118) ;
+    max-width: 30%;
+}
+.ed{
+    border: 1px solid rgb(120, 119, 118) ;
+    max-width: 70%;
+    margin-left: 15px;
+}
+h6{
+    color: rgb(255,5,72);
+    font-size: small;
+    cursor: pointer;
+
+} 
+.btn1{
+   
+    background-color: rgb(255,5,72);
+    color: white;
+    margin-right: 20px;
+
+}
+button{
+    width: 150px;
+}
+.btn2{
+    background-color: rgb(255,5,72);
+    color: white;
+    float: right;
+    
+    
+
+}
